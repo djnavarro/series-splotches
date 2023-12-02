@@ -337,5 +337,8 @@ curled <- function(seed) {
 }
 
 if (FALSE) {
-  for (s in 1600:1699) curled(s)
+  seeds <- c(
+    1603, 1615, 1620, 1621, 1637, 1642, 1646, 1647, 1674, 1689
+  )
+  for (s in seeds) curled(s)
 }
